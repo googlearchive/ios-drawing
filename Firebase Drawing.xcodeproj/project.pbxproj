@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB06F590199CEB75001953E9 /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB06F58F199CEB75001953E9 /* Firebase.framework */; };
+		FB06F592199CEC0F001953E9 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FB06F591199CEC0F001953E9 /* libc++.dylib */; };
+		FB06F594199CEC14001953E9 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FB06F593199CEC14001953E9 /* libicucore.dylib */; };
+		FB06F596199CEC1E001953E9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB06F595199CEC1E001953E9 /* SystemConfiguration.framework */; };
+		FB06F598199CEC23001953E9 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB06F597199CEC23001953E9 /* CFNetwork.framework */; };
+		FB06F59B199CEDB2001953E9 /* FDPath.m in Sources */ = {isa = PBXBuildFile; fileRef = FB06F59A199CEDB2001953E9 /* FDPath.m */; };
+		FB06F59E199CF73F001953E9 /* FDDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = FB06F59D199CF73F001953E9 /* FDDrawView.m */; };
+		FB06F5A2199D01E8001953E9 /* NKOColorPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = FB06F5A1199D01E8001953E9 /* NKOColorPickerView.m */; };
+		FB06F5A6199D01F2001953E9 /* nko_brightness_guide.png in Resources */ = {isa = PBXBuildFile; fileRef = FB06F5A3199D01F2001953E9 /* nko_brightness_guide.png */; };
+		FB06F5A7199D01F2001953E9 /* nko_brightness_guide@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB06F5A4199D01F2001953E9 /* nko_brightness_guide@2x.png */; };
+		FB06F5A8199D01F2001953E9 /* nko_colormap.png in Resources */ = {isa = PBXBuildFile; fileRef = FB06F5A5199D01F2001953E9 /* nko_colormap.png */; };
+		FB06F5AB199D0318001953E9 /* FDColorPickController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB06F5AA199D0318001953E9 /* FDColorPickController.m */; };
+		FB91C8A9199CEAA900AB077F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB91C8A8199CEAA900AB077F /* Foundation.framework */; };
+		FB91C8AB199CEAA900AB077F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB91C8AA199CEAA900AB077F /* CoreGraphics.framework */; };
+		FB91C8AD199CEAA900AB077F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB91C8AC199CEAA900AB077F /* UIKit.framework */; };
+		FB91C8B3199CEAA900AB077F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FB91C8B1199CEAA900AB077F /* InfoPlist.strings */; };
+		FB91C8B5199CEAA900AB077F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB91C8B4199CEAA900AB077F /* main.m */; };
+		FB91C8B9199CEAA900AB077F /* FDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB91C8B8199CEAA900AB077F /* FDAppDelegate.m */; };
+		FB91C8C2199CEAA900AB077F /* FDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB91C8C1199CEAA900AB077F /* FDViewController.m */; };
+		FB91C8C4199CEAA900AB077F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB91C8C3199CEAA900AB077F /* Images.xcassets */; };
+		FB91C8CB199CEAA900AB077F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB91C8CA199CEAA900AB077F /* XCTest.framework */; };
+		FB91C8CC199CEAA900AB077F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB91C8A8199CEAA900AB077F /* Foundation.framework */; };
+		FB91C8CD199CEAA900AB077F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB91C8AC199CEAA900AB077F /* UIKit.framework */; };
+		FB91C8D5199CEAA900AB077F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FB91C8D3199CEAA900AB077F /* InfoPlist.strings */; };
+		FB91C8D7199CEAA900AB077F /* Firebase_DrawingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB91C8D6199CEAA900AB077F /* Firebase_DrawingTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB91C8CE199CEAA900AB077F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB91C89D199CEAA900AB077F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB91C8A4199CEAA900AB077F;
+			remoteInfo = "Firebase Drawing";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB06F58F199CEB75001953E9 /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Firebase.framework; path = sdk/Firebase.framework; sourceTree = "<group>"; };
+		FB06F591199CEC0F001953E9 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		FB06F593199CEC14001953E9 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		FB06F595199CEC1E001953E9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		FB06F597199CEC23001953E9 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		FB06F599199CEDB2001953E9 /* FDPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDPath.h; sourceTree = "<group>"; };
+		FB06F59A199CEDB2001953E9 /* FDPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDPath.m; sourceTree = "<group>"; };
+		FB06F59C199CF73F001953E9 /* FDDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDDrawView.h; sourceTree = "<group>"; };
+		FB06F59D199CF73F001953E9 /* FDDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDDrawView.m; sourceTree = "<group>"; };
+		FB06F5A0199D01E8001953E9 /* NKOColorPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NKOColorPickerView.h; path = NKOColorPicker/NKOColorPickerView.h; sourceTree = SOURCE_ROOT; };
+		FB06F5A1199D01E8001953E9 /* NKOColorPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NKOColorPickerView.m; path = NKOColorPicker/NKOColorPickerView.m; sourceTree = SOURCE_ROOT; };
+		FB06F5A3199D01F2001953E9 /* nko_brightness_guide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nko_brightness_guide.png; path = NKOColorPicker/nko_brightness_guide.png; sourceTree = SOURCE_ROOT; };
+		FB06F5A4199D01F2001953E9 /* nko_brightness_guide@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "nko_brightness_guide@2x.png"; path = "NKOColorPicker/nko_brightness_guide@2x.png"; sourceTree = SOURCE_ROOT; };
+		FB06F5A5199D01F2001953E9 /* nko_colormap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nko_colormap.png; path = NKOColorPicker/nko_colormap.png; sourceTree = SOURCE_ROOT; };
+		FB06F5A9199D0318001953E9 /* FDColorPickController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDColorPickController.h; sourceTree = "<group>"; };
+		FB06F5AA199D0318001953E9 /* FDColorPickController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDColorPickController.m; sourceTree = "<group>"; };
+		FB91C8A5199CEAA900AB077F /* Firebase Drawing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Firebase Drawing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB91C8A8199CEAA900AB077F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FB91C8AA199CEAA900AB077F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FB91C8AC199CEAA900AB077F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FB91C8B0199CEAA900AB077F /* Firebase Drawing-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Firebase Drawing-Info.plist"; sourceTree = "<group>"; };
+		FB91C8B2199CEAA900AB077F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FB91C8B4199CEAA900AB077F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FB91C8B6199CEAA900AB077F /* Firebase Drawing-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Firebase Drawing-Prefix.pch"; sourceTree = "<group>"; };
+		FB91C8B7199CEAA900AB077F /* FDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FDAppDelegate.h; sourceTree = "<group>"; };
+		FB91C8B8199CEAA900AB077F /* FDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FDAppDelegate.m; sourceTree = "<group>"; };
+		FB91C8C0199CEAA900AB077F /* FDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FDViewController.h; sourceTree = "<group>"; };
+		FB91C8C1199CEAA900AB077F /* FDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FDViewController.m; sourceTree = "<group>"; };
+		FB91C8C3199CEAA900AB077F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FB91C8C9199CEAA900AB077F /* Firebase DrawingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Firebase DrawingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB91C8CA199CEAA900AB077F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FB91C8D2199CEAA900AB077F /* Firebase DrawingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Firebase DrawingTests-Info.plist"; sourceTree = "<group>"; };
+		FB91C8D4199CEAA900AB077F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FB91C8D6199CEAA900AB077F /* Firebase_DrawingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Firebase_DrawingTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB91C8A2199CEAA900AB077F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB06F598199CEC23001953E9 /* CFNetwork.framework in Frameworks */,
+				FB06F596199CEC1E001953E9 /* SystemConfiguration.framework in Frameworks */,
+				FB06F594199CEC14001953E9 /* libicucore.dylib in Frameworks */,
+				FB06F592199CEC0F001953E9 /* libc++.dylib in Frameworks */,
+				FB91C8AB199CEAA900AB077F /* CoreGraphics.framework in Frameworks */,
+				FB91C8AD199CEAA900AB077F /* UIKit.framework in Frameworks */,
+				FB91C8A9199CEAA900AB077F /* Foundation.framework in Frameworks */,
+				FB06F590199CEB75001953E9 /* Firebase.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB91C8C6199CEAA900AB077F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB91C8CB199CEAA900AB077F /* XCTest.framework in Frameworks */,
+				FB91C8CD199CEAA900AB077F /* UIKit.framework in Frameworks */,
+				FB91C8CC199CEAA900AB077F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB06F59F199CFF03001953E9 /* NKO Color Picker */ = {
+			isa = PBXGroup;
+			children = (
+				FB06F5A3199D01F2001953E9 /* nko_brightness_guide.png */,
+				FB06F5A4199D01F2001953E9 /* nko_brightness_guide@2x.png */,
+				FB06F5A5199D01F2001953E9 /* nko_colormap.png */,
+				FB06F5A0199D01E8001953E9 /* NKOColorPickerView.h */,
+				FB06F5A1199D01E8001953E9 /* NKOColorPickerView.m */,
+			);
+			name = "NKO Color Picker";
+			sourceTree = "<group>";
+		};
+		FB91C89C199CEAA900AB077F = {
+			isa = PBXGroup;
+			children = (
+				FB91C8AE199CEAA900AB077F /* Firebase Drawing */,
+				FB91C8D0199CEAA900AB077F /* Firebase DrawingTests */,
+				FB91C8A7199CEAA900AB077F /* Frameworks */,
+				FB91C8A6199CEAA900AB077F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB91C8A6199CEAA900AB077F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB91C8A5199CEAA900AB077F /* Firebase Drawing.app */,
+				FB91C8C9199CEAA900AB077F /* Firebase DrawingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB91C8A7199CEAA900AB077F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB06F597199CEC23001953E9 /* CFNetwork.framework */,
+				FB06F595199CEC1E001953E9 /* SystemConfiguration.framework */,
+				FB06F593199CEC14001953E9 /* libicucore.dylib */,
+				FB06F591199CEC0F001953E9 /* libc++.dylib */,
+				FB06F58F199CEB75001953E9 /* Firebase.framework */,
+				FB91C8A8199CEAA900AB077F /* Foundation.framework */,
+				FB91C8AA199CEAA900AB077F /* CoreGraphics.framework */,
+				FB91C8AC199CEAA900AB077F /* UIKit.framework */,
+				FB91C8CA199CEAA900AB077F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB91C8AE199CEAA900AB077F /* Firebase Drawing */ = {
+			isa = PBXGroup;
+			children = (
+				FB06F59F199CFF03001953E9 /* NKO Color Picker */,
+				FB91C8B7199CEAA900AB077F /* FDAppDelegate.h */,
+				FB91C8B8199CEAA900AB077F /* FDAppDelegate.m */,
+				FB91C8C0199CEAA900AB077F /* FDViewController.h */,
+				FB91C8C1199CEAA900AB077F /* FDViewController.m */,
+				FB06F59C199CF73F001953E9 /* FDDrawView.h */,
+				FB06F59D199CF73F001953E9 /* FDDrawView.m */,
+				FB06F599199CEDB2001953E9 /* FDPath.h */,
+				FB06F59A199CEDB2001953E9 /* FDPath.m */,
+				FB06F5A9199D0318001953E9 /* FDColorPickController.h */,
+				FB06F5AA199D0318001953E9 /* FDColorPickController.m */,
+				FB91C8C3199CEAA900AB077F /* Images.xcassets */,
+				FB91C8AF199CEAA900AB077F /* Supporting Files */,
+			);
+			path = "Firebase Drawing";
+			sourceTree = "<group>";
+		};
+		FB91C8AF199CEAA900AB077F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB91C8B0199CEAA900AB077F /* Firebase Drawing-Info.plist */,
+				FB91C8B1199CEAA900AB077F /* InfoPlist.strings */,
+				FB91C8B4199CEAA900AB077F /* main.m */,
+				FB91C8B6199CEAA900AB077F /* Firebase Drawing-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FB91C8D0199CEAA900AB077F /* Firebase DrawingTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB91C8D6199CEAA900AB077F /* Firebase_DrawingTests.m */,
+				FB91C8D1199CEAA900AB077F /* Supporting Files */,
+			);
+			path = "Firebase DrawingTests";
+			sourceTree = "<group>";
+		};
+		FB91C8D1199CEAA900AB077F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB91C8D2199CEAA900AB077F /* Firebase DrawingTests-Info.plist */,
+				FB91C8D3199CEAA900AB077F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB91C8A4199CEAA900AB077F /* Firebase Drawing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB91C8DA199CEAA900AB077F /* Build configuration list for PBXNativeTarget "Firebase Drawing" */;
+			buildPhases = (
+				FB91C8A1199CEAA900AB077F /* Sources */,
+				FB91C8A2199CEAA900AB077F /* Frameworks */,
+				FB91C8A3199CEAA900AB077F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Firebase Drawing";
+			productName = "Firebase Drawing";
+			productReference = FB91C8A5199CEAA900AB077F /* Firebase Drawing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB91C8C8199CEAA900AB077F /* Firebase DrawingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB91C8DD199CEAA900AB077F /* Build configuration list for PBXNativeTarget "Firebase DrawingTests" */;
+			buildPhases = (
+				FB91C8C5199CEAA900AB077F /* Sources */,
+				FB91C8C6199CEAA900AB077F /* Frameworks */,
+				FB91C8C7199CEAA900AB077F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB91C8CF199CEAA900AB077F /* PBXTargetDependency */,
+			);
+			name = "Firebase DrawingTests";
+			productName = "Firebase DrawingTests";
+			productReference = FB91C8C9199CEAA900AB077F /* Firebase DrawingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB91C89D199CEAA900AB077F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FD;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Firebase;
+				TargetAttributes = {
+					FB91C8C8199CEAA900AB077F = {
+						TestTargetID = FB91C8A4199CEAA900AB077F;
+					};
+				};
+			};
+			buildConfigurationList = FB91C8A0199CEAA900AB077F /* Build configuration list for PBXProject "Firebase Drawing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB91C89C199CEAA900AB077F;
+			productRefGroup = FB91C8A6199CEAA900AB077F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB91C8A4199CEAA900AB077F /* Firebase Drawing */,
+				FB91C8C8199CEAA900AB077F /* Firebase DrawingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB91C8A3199CEAA900AB077F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB06F5A8199D01F2001953E9 /* nko_colormap.png in Resources */,
+				FB91C8C4199CEAA900AB077F /* Images.xcassets in Resources */,
+				FB06F5A7199D01F2001953E9 /* nko_brightness_guide@2x.png in Resources */,
+				FB91C8B3199CEAA900AB077F /* InfoPlist.strings in Resources */,
+				FB06F5A6199D01F2001953E9 /* nko_brightness_guide.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB91C8C7199CEAA900AB077F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB91C8D5199CEAA900AB077F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB91C8A1199CEAA900AB077F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB91C8B9199CEAA900AB077F /* FDAppDelegate.m in Sources */,
+				FB06F5A2199D01E8001953E9 /* NKOColorPickerView.m in Sources */,
+				FB91C8B5199CEAA900AB077F /* main.m in Sources */,
+				FB06F5AB199D0318001953E9 /* FDColorPickController.m in Sources */,
+				FB06F59B199CEDB2001953E9 /* FDPath.m in Sources */,
+				FB06F59E199CF73F001953E9 /* FDDrawView.m in Sources */,
+				FB91C8C2199CEAA900AB077F /* FDViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB91C8C5199CEAA900AB077F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB91C8D7199CEAA900AB077F /* Firebase_DrawingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB91C8CF199CEAA900AB077F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB91C8A4199CEAA900AB077F /* Firebase Drawing */;
+			targetProxy = FB91C8CE199CEAA900AB077F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB91C8B1199CEAA900AB077F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB91C8B2199CEAA900AB077F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FB91C8D3199CEAA900AB077F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB91C8D4199CEAA900AB077F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB91C8D8199CEAA900AB077F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB91C8D9199CEAA900AB077F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB91C8DB199CEAA900AB077F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/sdk",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Firebase Drawing/Firebase Drawing-Prefix.pch";
+				INFOPLIST_FILE = "Firebase Drawing/Firebase Drawing-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FB91C8DC199CEAA900AB077F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/sdk",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Firebase Drawing/Firebase Drawing-Prefix.pch";
+				INFOPLIST_FILE = "Firebase Drawing/Firebase Drawing-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FB91C8DE199CEAA900AB077F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Firebase Drawing.app/Firebase Drawing";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Firebase Drawing/Firebase Drawing-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Firebase DrawingTests/Firebase DrawingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FB91C8DF199CEAA900AB077F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Firebase Drawing.app/Firebase Drawing";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Firebase Drawing/Firebase Drawing-Prefix.pch";
+				INFOPLIST_FILE = "Firebase DrawingTests/Firebase DrawingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB91C8A0199CEAA900AB077F /* Build configuration list for PBXProject "Firebase Drawing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB91C8D8199CEAA900AB077F /* Debug */,
+				FB91C8D9199CEAA900AB077F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB91C8DA199CEAA900AB077F /* Build configuration list for PBXNativeTarget "Firebase Drawing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB91C8DB199CEAA900AB077F /* Debug */,
+				FB91C8DC199CEAA900AB077F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB91C8DD199CEAA900AB077F /* Build configuration list for PBXNativeTarget "Firebase DrawingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB91C8DE199CEAA900AB077F /* Debug */,
+				FB91C8DF199CEAA900AB077F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB91C89D199CEAA900AB077F /* Project object */;
+}
