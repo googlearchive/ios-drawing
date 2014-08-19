@@ -2,7 +2,8 @@
 
 This iOS app demonstrates the use of the Firebase SDK to create a shared drawing
 canvas. Multiple users can run the app and draw on the same canvas. Line
-segments are synchronized as the user draws them.
+segments are synchronized as the user draws them. It is compatible with the
+[Android drawing app](https://github.com/firebase/AndroidDrawing/).
 
 The color picker uses the [NKO Color
 Picker](https://github.com/FWCarlos/NKO-Color-Picker-View-iOS)

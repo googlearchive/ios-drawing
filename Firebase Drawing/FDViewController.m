@@ -13,7 +13,7 @@
 #import "FDColorPickController.h"
 
 // Replace this with your own Firebase
-static NSString * const kFirebaseURL = @"https://ios-drawing.firebaseio-demo.com";
+static NSString * const kFirebaseURL = @"https://android-drawing.firebaseio-demo.com";
 
 @interface FDViewController ()
 
