@@ -55,7 +55,7 @@ static NSString * const kFirebaseURL = @"https://android-drawing.firebaseio-demo
 
         // New drawings will appear as child added events
         self.childAddedHandle = [self.firebase observeEventType:FEventTypeChildAdded withBlock:^(FDataSnapshot *snapshot) {
-            if ([weakSelf.outstandingPaths containsObject:snapshot.name]) {
+            if ([weakSelf.outstandingPaths containsObject:snapshot.key]) {
                 // this was drawn by this device and already taken care of by our draw view, ignore
             } else {
                 // parse the path into our internal format
@@ -69,7 +69,7 @@ static NSString * const kFirebaseURL = @"https://android-drawing.firebaseio-demo
                     [weakSelf.paths addObject:path];
                 } else {
                     // there was an error parsing the snapshot, log an error
-                    NSLog(@"Not a valid path: %@ -> %@", snapshot.name, snapshot.value);
+                    NSLog(@"Not a valid path: %@ -> %@", snapshot.key, snapshot.value);
                 }
             }
         }];
@@ -110,7 +110,7 @@ static NSString * const kFirebaseURL = @"https://android-drawing.firebaseio-demo
     Firebase *pathRef = [self.firebase childByAutoId];
 
     // get the name of this path which serves as a global id
-    NSString *name = pathRef.name;
+    NSString *name = pathRef.key;
 
     // remember that this path was drawn by this user so it's not drawn twice
     [self.outstandingPaths addObject:name];
