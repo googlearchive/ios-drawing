@@ -9,8 +9,18 @@
 #import "FDAppDelegate.h"
 
 #import "FDViewController.h"
+#import <Firebase/Firebase.h>
 
 @implementation FDAppDelegate
+
+- (instancetype)init
+{
+  self = [super init];
+  if (self) {
+    [Firebase defaultConfig].persistenceEnabled = YES;
+  }
+  return self;
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {

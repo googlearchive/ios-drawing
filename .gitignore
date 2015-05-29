@@ -17,6 +17,7 @@ build/
 xcuserdata
 *.moved-aside
 *.xccheckout
+Pods
 
 # local
 /sdk
