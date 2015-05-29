@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E518EA42C9229E5DB1BD9110 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EB4725488011E15BE5A48DDF /* libPods.a */; };
 		FB06F59B199CEDB2001953E9 /* FDPath.m in Sources */ = {isa = PBXBuildFile; fileRef = FB06F59A199CEDB2001953E9 /* FDPath.m */; };
 		FB06F59E199CF73F001953E9 /* FDDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = FB06F59D199CF73F001953E9 /* FDDrawView.m */; };
 		FB06F5AB199D0318001953E9 /* FDColorPickController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB06F5AA199D0318001953E9 /* FDColorPickController.m */; };
@@ -31,6 +32,7 @@
 
 /* Begin PBXFileReference section */
 		8E911F4DAB80EA6A669A8003 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		EB4725488011E15BE5A48DDF /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1B616C7DD0C3A787AC484ED /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		FB06F599199CEDB2001953E9 /* FDPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDPath.h; sourceTree = "<group>"; };
 		FB06F59A199CEDB2001953E9 /* FDPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDPath.m; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E518EA42C9229E5DB1BD9110 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,14 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		93B7CF88A58C4AF13587DE96 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB4725488011E15BE5A48DDF /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FB91C89C199CEAA900AB077F = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +99,7 @@
 				FB91C8D0199CEAA900AB077F /* Firebase DrawingTests */,
 				FB91C8A6199CEAA900AB077F /* Products */,
 				20347D48010FE37807E7B935 /* Pods */,
+				93B7CF88A58C4AF13587DE96 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};

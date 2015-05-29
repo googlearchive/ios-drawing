@@ -13,5 +13,9 @@ pod install
 ```
 
 ## Dependencies
-#### [Firebase](https://firebase.com/) 
+#### [Firebase](https://firebase.com/)
 #### [NKO Color Picker](https://github.com/FWCarlos/NKO-Color-Picker-View-iOS)
+
+### Demo
+
+![Drawing Demo](ios-drawing.gif)
