@@ -1,3 +1,7 @@
+# This is a legacy Firebase example (for SDK 2.x.x). You probably want one of the [up-to-date examples](https://firebase.google.com/docs/samples).
+
+---------------------
+
 # Firebase Shared Drawing
 
 This iOS app demonstrates the use of the [Firebase SDK](https://firebase.com/) to create a shared drawing
